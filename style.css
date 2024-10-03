@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: rgb(248, 202, 53);
+    text-shadow: #e0dbdb;
+
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.html {
+    color: rgb(252, 252, 252);
+    background-color: rgb(133, 228, 246);
+    box-shadow: 5px 5px 5px rgb(201, 217, 220);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.css {
+    color: rgb(252, 252, 252);
+    background-color: rgb(133, 228, 246);
+    box-shadow: 5px 5px 5px rgb(201, 217, 220);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;      
+}
+
+.js {
+    color: rgb(252, 252, 252);
+    background-color: rgb(133, 228, 246);
+    box-shadow: 5px 5px 5px rgb(201, 217, 220);                   
+    border-radius: 10px;                                            
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: 	rgb(248, 202, 53);
+    background-color: 0,102,112;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold; 
+    
+}
+
+.answer {
+    color: white;
+    background-color: rgb(133, 228, 246);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.restart {
+    color: rgb(255, 255, 255);
+    background-color: rgb(133,228,246);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Container for the progress bar */
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Text showing current question number */
+  #question-number {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Progress bar background */
+  .progress-bar {
+    position: relative;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  
+  /* Fill inside the progress bar */
+  .progress-fill {
+    background-color: #85e4f6;
+    height: 100%;
+    width: 0; 
+    border-radius: 10px;
+    transition: width 0.4s ease-in-out;
+  }
+
+  .copyright {
+    display: grid-rows;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(75, 72, 72);
+    box-shadow: 5px 5px 5px rgb(201, 217, 220);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+  
